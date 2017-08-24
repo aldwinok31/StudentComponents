@@ -5,11 +5,13 @@ import { FormsModule } from '@angular/forms';
 import {AppComponent} from './app.component';
 import { InputComponent } from './input/input.component';
 import { PrintComponent } from './print/print.component';
+import { ListComponent } from './list/list.component';
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
-    PrintComponent
+    PrintComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
